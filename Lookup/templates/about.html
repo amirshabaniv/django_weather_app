@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h6>This site shows the weather condition of that region based on the weather zip code of each region.</h6>
+<h6>For example, the zip code of three regions is specified in the following table:</h6>
+
+<br>
+
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Area:</th>
+        <th scope="col"> South Coast</th>
+        <th scope="col">Metro Baltimore</th>
+        <th scope="col">Chicago</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Weather ZipCode:</th>
+        <td>08403</td>
+        <td>21162</td>
+        <td>60610</td>
+      </tr>
+    </tbody>
+  </table>
+
+{% endblock %}
